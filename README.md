@@ -1,88 +1,115 @@
-<p align="center">
-  <img src="https://i.ibb.co/NnFRdWxm/upload-1771680267489-4b4129c8-jpg.jpg" alt="Dave-X" width="300"/>
-</p>
+# DAVEX-ULTRA
 
-<p align="center">
-  <a href="https://davex254-sessions.onrender.com/">
-    <img src="https://img.shields.io/badge/Pair_Code-Get_Your_Code-purple?style=for-the-badge&logo=whatsapp&logoColor=white" alt="Pair Code" width="220">
-  </a>
+> A multi-device WhatsApp automation bot focused on fast command handling, group administration, media tools, games, automation, and API-powered utilities.
 
-  <a href="https://github.com/Davex-254/DAVE-X-ULTRA/fork">
-    <img src="https://img.shields.io/badge/Fork_Repo-DAVE--X--ULTRA-blue?style=for-the-badge&logo=github&logoColor=white" alt="Fork Repo" width="220">
-  </a>
+## Overview
 
-  <a href="https://github.com/Davex-254/DAVE-X-ULTRA/archive/refs/heads/main.zip">
-    <img src="https://img.shields.io/badge/Download_Zip-Get_Backup-green?style=for-the-badge&logo=download&logoColor=white" alt="Download ZIP" width="220">
-  </a>
-</p>
+DAVEX-ULTRA is a Node.js bot built around a persistent WhatsApp multi-device session. It provides a broad command system for private chats and groups, with configurable access modes, owner controls, group administration, media processing, status tools, and entertainment features.
 
----
+The project is designed to run from a standard Node.js process or a supported container and platform deployment. Runtime credentials and session data must be supplied through the host environment and must never be committed to the repository.
 
-## 🚀 DEPLOYMENT PLATFORMS
+## Capabilities
 
-<p align="center">Deploy <strong>DAVE-X-ULTRA</strong> instantly on your preferred platform.</p>
+| Area | Included functionality |
+|---|---|
+| WhatsApp | Multi-device session handling, pairing support, message routing, reactions, presence, and status utilities |
+| Groups | Administration, moderation, protection controls, member tools, welcome and goodbye automation |
+| Media | Stickers, text-to-sticker, animated text, audio effects, text-to-speech, image and video utilities |
+| Downloads | Music, video, social-media, document, and link tools with provider fallbacks |
+| AI and APIs | AI chat, image tools, anime utilities, lyrics, sports, search, and other API-backed commands |
+| Automation | Auto-read, auto-react, auto-typing, auto-recording, chatbot modes, and scheduled-style bot behaviors |
+| Owner controls | Runtime settings, privacy options, anti-delete and anti-edit scopes, command access, and diagnostics |
 
-<div align="center">
-  <table>
-    <tr>
-      <td align="center"><a href="https://heroku.com/deploy?template=https://github.com/Davex-254/DAVE-X-ULTRA/tree/main" target="_blank"><img src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white"/></a></td>
-      <td align="center"><a href="https://replit.com/github/Davex-254/DAVE-X-ULTRA" target="_blank"><img src="https://img.shields.io/badge/Replit-F26207?style=for-the-badge&logo=replit&logoColor=white"/></a></td>
-    </tr>
-    <tr>
-      <td align="center"><a href="https://app.koyeb.com/deploy?type=git&repository=github.com/Davex-254/DAVE-X-ULTRA" target="_blank"><img src="https://img.shields.io/badge/Koyeb-FF009D?style=for-the-badge&logo=koyeb&logoColor=white"/></a></td>
-      <td align="center"><a href="https://railway.app/new/template?template=https://github.com/Davex-254/DAVE-X-ULTRA" target="_blank"><img src="https://img.shields.io/badge/Railway-FF8700?style=for-the-badge&logo=railway&logoColor=white"/></a></td>
-    </tr>
-    <tr>
-      <td align="center"><a href="https://render.com/deploy?repo=https://github.com/Davex-254/DAVE-X-ULTRA" target="_blank"><img src="https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white"/></a></td>
-      <td align="center"><a href="https://app.netlify.com/start/deploy?repository=https://github.com/Davex-254/DAVE-X-ULTRA" target="_blank"><img src="https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white"/></a></td>
-    </tr>
-    <tr>
-      <td colspan="2" align="center"><a href="https://dashboard.katabump.com/auth/login#ce51a9" target="_blank"><img src="https://img.shields.io/badge/Katabump-FF6B6B?style=for-the-badge&logo=cloudflare&logoColor=white"/></a></td>
-    </tr>
-  </table>
-</div>
+## Requirements
 
----
+- Node.js 18 or newer.
+- A WhatsApp account for the bot session.
+- Network access to WhatsApp and any API providers used by enabled commands.
+- A writable runtime directory for the SQLite database and session state.
 
-## 🎥 VIDEO TUTORIAL
+## Installation
 
-<p align="center">
-  <a href="https://youtu.be/wJKMV0BSqpE?si=6Y11rPD0t2ykoxB8" target="_blank">
-    <img src="https://img.shields.io/badge/📺_WATCH_TUTORIAL-red?style=for-the-badge&logo=youtube&logoColor=white" width="280">
-  </a>
-</p>
+```bash
+git clone https://github.com/Davex-254/DAVE-X-ULTRA.git
+cd DAVE-X-ULTRA
+npm install
+npm start
+```
 
-<p align="center">
-  <strong>How to deploy DAVE-X-ULTRA on any panel in 2026</strong><br>
-  Step-by-step video guide — get your bot running in minutes.
-</p>
+For development, run the entry point directly:
 
----
+```bash
+node index.js
+```
 
-## 👨‍💻 ABOUT THE AUTHOR
+## Configuration
 
-> **Dave Tech** — building powerful bots with passion.  
-> 🎬 Also check out my movie streaming site:  
-> 👉 [**DAVEXMOVIES**](https://www.davex-moviezone.zone.id) — stream the latest movies & TV shows for free!
+Create the required environment configuration on the host or platform secret manager. Do not upload `.env`, authentication databases, SQLite files, logs, or other runtime state to GitHub.
 
----
+The bot uses the configured WhatsApp session when one is available. If no valid session is present, follow the pairing flow printed by the process. Keep the resulting authentication state private and back it up securely.
 
-## 📌 QUICK TIPS
+Common runtime settings include the bot prefix, operating mode, owner or sudo access, session configuration, and provider credentials. The exact variables used by a deployment should be supplied through its platform configuration rather than committed to source control.
 
-- On free panels, set your session ID in the `.env` file
-- If the bot stops responding, try generating a new session ID or redeploy
-- For detailed steps, watch the tutorial above
+## Commands
 
----
+Commands use the configured prefix, which is `.` by default. Examples include:
 
-## ⭐ SUPPORT THE PROJECT
+```text
+.menu
+.ping
+.tosgroup Hello from the group
+.tourl
+.sticker
+.play song name
+```
 
-If you find this bot useful, consider:
-- ⭐ Starring the repository
-- 🍴 Forking for your own use
-- 📢 Sharing with friends
-- 💬 Leaving a comment on the tutorial
+Use `.menu` in WhatsApp for the current command catalogue. Some commands are restricted to the owner, sudo users, or group administrators. Media commands can generally be used by sending a supported media message with the command as a caption or by replying to the media.
 
----
+## Group status
 
-**© 2026 Dave Tech. All rights reserved.**
+The group-status command posts content to the WhatsApp group-status channel without echoing the status media into the ordinary group chat. Text, images, videos, audio, documents, and supported stickers can be supplied directly or through a quoted message.
+
+```text
+.tosgroup Group announcement
+```
+
+The command also accepts the maintained group-status aliases registered in the command catalogue. Use `.menu` to view the active aliases.
+
+## Deployment
+
+The repository includes the existing deployment manifests used by the project. Configure secrets and runtime variables in the selected platform dashboard, then deploy the repository using that platform’s normal Node.js or container workflow.
+
+Before deploying, verify that the platform provides:
+
+1. A persistent or recoverable session-storage strategy.
+2. A supported Node.js runtime.
+3. A writable directory for runtime state.
+4. Environment-variable configuration for secrets.
+5. Automatic restart handling for process failures.
+
+## Security and maintenance
+
+Never publish WhatsApp authentication state, pairing information, access tokens, private API keys, database files, or platform credentials. Rotate any credential that has been exposed and remove it from repository history where necessary.
+
+Keep the process logs private. When diagnosing a problem, share only redacted errors and never include session identifiers, private phone numbers, tokens, cookies, or database contents.
+
+## Project structure
+
+| Path | Purpose |
+|---|---|
+| `index.js` | Application entry point and connection lifecycle |
+| `main.js` | Message routing, command dispatch, access checks, and runtime handlers |
+| `plugins/` | Command implementations grouped by feature area |
+| `lib/` | Shared context, database, session, media, status, and utility modules |
+| `package.json` | Runtime scripts and dependency declarations |
+| `app.json`, `Dockerfile`, `heroku.yml` | Deployment configuration supplied with the project |
+
+## Support the project
+
+If DAVEX-ULTRA is useful to you, consider starring the repository, reporting reproducible issues with redacted logs, and contributing improvements that respect WhatsApp’s terms and user privacy.
+
+## License
+
+Use and redistribute this project responsibly. Review the repository history and deployment configuration before creating a public fork.
+
+Copyright © 2026 Dave Tech.
