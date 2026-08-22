@@ -8,29 +8,27 @@
   <strong>A WhatsApp bot with group control, AI tools, media utilities, and more.</strong>
 </p>
 
-## Quick access
-
 <p align="center">
-  <a href="https://davex254-sessions.onrender.com/"><img src="https://img.shields.io/badge/Pair_Code-Get_Your_Code-7B2CBF?style=for-the-badge&logo=whatsapp&logoColor=white" alt="Get Pair Code"></a>
-  <a href="https://github.com/Davex-254/DAVE-X-ULTRA/fork"><img src="https://img.shields.io/badge/Fork_Repository-Fork-2563EB?style=for-the-badge&logo=github&logoColor=white" alt="Fork Repository"></a>
-  <a href="https://github.com/Davex-254/DAVE-X-ULTRA/archive/refs/heads/main.zip"><img src="https://img.shields.io/badge/Download_ZIP-Download-16A34A?style=for-the-badge&logo=download&logoColor=white" alt="Download ZIP"></a>
+  <a href="https://davex254-sessions.onrender.com/"><img src="https://img.shields.io/badge/PAIR_CODE-OPEN-52525B?style=for-the-badge&labelColor=18181B&logo=whatsapp&logoColor=F4F4F5" alt="Open Pair Code"></a>
+  <a href="https://github.com/Davex-254/DAVE-X-ULTRA/fork"><img src="https://img.shields.io/badge/FORK_REPOSITORY-OPEN-52525B?style=for-the-badge&labelColor=18181B&logo=github&logoColor=F4F4F5" alt="Fork Repository"></a>
+  <a href="https://github.com/Davex-254/DAVE-X-ULTRA/archive/refs/heads/main.zip"><img src="https://img.shields.io/badge/DOWNLOAD_ZIP-GET_FILE-52525B?style=for-the-badge&labelColor=18181B&logo=download&logoColor=F4F4F5" alt="Download ZIP"></a>
 </p>
 
 ## Deployment platforms
 
-Deploy **DAVE-X-ULTRA** on your preferred platform.
+Deploy **DAVE-X-ULTRA** on the platform that best fits your setup.
 
-| Platform | Deployment link |
+| Platform | Badge |
 |---|---|
-| [![Heroku](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white)](https://heroku.com/deploy?template=https://github.com/Davex-254/DAVE-X-ULTRA/tree/main) | [![Replit](https://img.shields.io/badge/Replit-F26207?style=for-the-badge&logo=replit&logoColor=white)](https://replit.com/github/Davex-254/DAVE-X-ULTRA) |
-| [![Koyeb](https://img.shields.io/badge/Koyeb-FF009D?style=for-the-badge&logo=koyeb&logoColor=white)](https://app.koyeb.com/deploy?type=git&repository=github.com/Davex-254/DAVE-X-ULTRA) | [![Railway](https://img.shields.io/badge/Railway-FF8700?style=for-the-badge&logo=railway&logoColor=white)](https://railway.app/new/template?template=https://github.com/Davex-254/DAVE-X-ULTRA) |
-| [![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)](https://render.com/deploy?repo=https://github.com/Davex-254/DAVE-X-ULTRA) | [![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://app.netlify.com/start/deploy?repository=https://github.com/Davex-254/DAVE-X-ULTRA) |
-| [![Katabump](https://img.shields.io/badge/Katabump-FF6B6B?style=for-the-badge&logo=cloudflare&logoColor=white)](https://dashboard.katabump.com/auth/login#ce51a9) | |
+| [![Heroku](https://img.shields.io/badge/HEROKU-DEPLOY-52525B?style=flat-square&labelColor=18181B&logo=heroku&logoColor=F4F4F5)](https://heroku.com/deploy?template=https://github.com/Davex-254/DAVE-X-ULTRA/tree/main) | [![Replit](https://img.shields.io/badge/REPLIT-DEPLOY-52525B?style=flat-square&labelColor=18181B&logo=replit&logoColor=F4F4F5)](https://replit.com/github/Davex-254/DAVE-X-ULTRA) |
+| [![Koyeb](https://img.shields.io/badge/KOYEB-DEPLOY-52525B?style=flat-square&labelColor=18181B&logo=koyeb&logoColor=F4F4F5)](https://app.koyeb.com/deploy?type=git&repository=github.com/Davex-254/DAVE-X-ULTRA) | [![Railway](https://img.shields.io/badge/RAILWAY-DEPLOY-52525B?style=flat-square&labelColor=18181B&logo=railway&logoColor=F4F4F5)](https://railway.app/new/template?template=https://github.com/Davex-254/DAVE-X-ULTRA) |
+| [![Render](https://img.shields.io/badge/RENDER-DEPLOY-52525B?style=flat-square&labelColor=18181B&logo=render&logoColor=F4F4F5)](https://render.com/deploy?repo=https://github.com/Davex-254/DAVE-X-ULTRA) | [![Netlify](https://img.shields.io/badge/NETLIFY-DEPLOY-52525B?style=flat-square&labelColor=18181B&logo=netlify&logoColor=F4F4F5)](https://app.netlify.com/start/deploy?repository=https://github.com/Davex-254/DAVE-X-ULTRA) |
+| [![Katabump](https://img.shields.io/badge/KATABUMP-DEPLOY-52525B?style=flat-square&labelColor=18181B&logo=cloudflare&logoColor=F4F4F5)](https://dashboard.katabump.com/auth/login#ce51a9) | |
 
 ## Video tutorial
 
 <p align="center">
-  <a href="https://youtu.be/wJKMV0BSqpE?si=6Y11rPD0t2ykoxB8"><img src="https://img.shields.io/badge/Watch_the_Deployment_Tutorial-E62117?style=for-the-badge&logo=youtube&logoColor=white" alt="Watch Tutorial"></a>
+  <a href="https://youtu.be/wJKMV0BSqpE?si=6Y11rPD0t2ykoxB8"><img src="https://img.shields.io/badge/WATCH_DEPLOYMENT_TUTORIAL-OPEN-52525B?style=for-the-badge&labelColor=18181B&logo=youtube&logoColor=F4F4F5" alt="Watch Deployment Tutorial"></a>
 </p>
 
 **How to deploy DAVE-X-ULTRA on any panel in 2026** — a step-by-step video guide to get your bot running in minutes.
