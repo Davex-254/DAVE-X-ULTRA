@@ -35,7 +35,11 @@ Deploy **DAVE-X-ULTRA** on the platform that best fits your setup.
 
 ## About the author
 
-**Dave Tech** builds powerful bots with passion. Also visit [DAVEXMOVIES](https://www.davex-moviezone.zone.id) to stream the latest movies and TV shows for free.
+**Dave Tech** builds powerful bots with passion. Also visit DAVEXMOVIES to stream the latest movies and TV shows for free.
+
+<p align="center">
+  <a href="https://www.davex-moviezone.zone.id"><img src="https://img.shields.io/badge/DAVEXMOVIES-WATCH-52525B?style=for-the-badge&labelColor=18181B&logo=film&logoColor=F4F4F5" alt="Visit DAVEXMOVIES"></a>
+</p>
 
 ## Quick tips
 
